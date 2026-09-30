@@ -1,0 +1,4 @@
+# Tested with Python 3.14.7, NumPy 2.5.3 and Matplotlib 3.11.2.
+# Minimum versions keep the example usable on other Python 3.10+ environments.
+numpy>=1.24
+matplotlib>=3.7

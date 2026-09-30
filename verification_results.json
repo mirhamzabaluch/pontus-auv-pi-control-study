@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "exact_linear_solution_max_speed_error_mps": 1.2426726314629377e-12,
+  "halved_step_max_speed_difference_mps": 1.207201005826164e-12,
+  "full_linear_closed_loop_poles_per_s": [
+    -0.6700000000000002,
+    -0.4402480658450041
+  ],
+  "no_response_before_first_step": true,
+  "saved_csv_matches_current_code": true,
+  "three_reference_changes": true,
+  "interpretation": "Numerical checks for the stated reduced model, not validation of the complete AUV."
+}

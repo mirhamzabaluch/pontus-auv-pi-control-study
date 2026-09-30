@@ -1,0 +1,71 @@
+{
+  "mass_kg": 22.67485259893114,
+  "trim_speed_mps": 0.4,
+  "trim_force_N": 2.996512,
+  "local_drag_Ns_per_m": 9.98256,
+  "plant_decay_rate_per_s": 0.44024806584500414,
+  "dt_s": 0.01,
+  "selected_rate_per_s": 0.67,
+  "candidates": [
+    {
+      "lambda": 0.4,
+      "kp": 0.4,
+      "ki": 0.17609922633800168,
+      "peak_force_N": 4.056038150696189,
+      "steps": [
+        {
+          "settling_time": 8.41,
+          "overshoot": 9.111920213772384e-05
+        },
+        {
+          "settling_time": 10.410000000000004,
+          "overshoot": 0.0
+        },
+        {
+          "settling_time": 10.590000000000003,
+          "overshoot": 0.0
+        }
+      ]
+    },
+    {
+      "lambda": 0.5,
+      "kp": 0.5,
+      "ki": 0.22012403292250207,
+      "peak_force_N": 4.3280430174916065,
+      "steps": [
+        {
+          "settling_time": 6.740000000000002,
+          "overshoot": 0.0001713651165302088
+        },
+        {
+          "settling_time": 8.270000000000003,
+          "overshoot": 0.0
+        },
+        {
+          "settling_time": 8.579999999999998,
+          "overshoot": 0.0
+        }
+      ]
+    },
+    {
+      "lambda": 0.67,
+      "kp": 0.67,
+      "ki": 0.2949662041161528,
+      "peak_force_N": 5.098979516414276,
+      "steps": [
+        {
+          "settling_time": 5.07,
+          "overshoot": 0.00028075978756786357
+        },
+        {
+          "settling_time": 6.090000000000003,
+          "overshoot": 0.0
+        },
+        {
+          "settling_time": 6.509999999999998,
+          "overshoot": 0.0
+        }
+      ]
+    }
+  ]
+}
